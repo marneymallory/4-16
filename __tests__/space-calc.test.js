@@ -24,7 +24,9 @@ describe("Age", () => {
   test("should correctly return years left on Earth", () => {
     expect(age.timeOnEarth()).toEqual(48)
   })
-  
+  test("should correctly return years left on Mercury", () => {
+    expect(age.timeOnMercury()).toEqual()
+  })
   
   
 });

@@ -21,6 +21,7 @@ export default class Age {
   timeOnEarth(){
     return this.earthAgeExpectancy - this.earth
   }
+  
 
   }
 
