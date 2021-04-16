@@ -1,6 +1,7 @@
 export default class Age {
   constructor(earthAge) {
     this.earth = earthAge
+    this.earthAgeExpectancy = 78
   }
   earthAge(){
     return this.earth
@@ -17,6 +18,7 @@ export default class Age {
   jupiterAge(){
     return this.earth /11.86
   }
+  
 
   }
 
