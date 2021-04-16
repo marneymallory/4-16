@@ -10,6 +10,3 @@ export default class Age {
   }
 }
 
-// checkType();{
-//   let earthAge = ""
-//   function earthAge(
