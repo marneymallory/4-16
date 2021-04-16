@@ -8,5 +8,8 @@ export default class Age {
   mercuryAge(){
     return this.earth /.24
   }
+  venusAge(){
+    return this.earth /.62
+  }
 }
 

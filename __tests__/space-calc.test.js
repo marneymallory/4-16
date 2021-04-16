@@ -13,7 +13,7 @@ describe("Age", () => {
     expect(age.mercuryAge()).toEqual(125);
   });
   test("should correctly return age in Venus years", () => {
-    expect(age.venusAge()).toEqual(48);
+    expect(age.venusAge()).toEqual(48.38709677419355);
   });
   
 });
