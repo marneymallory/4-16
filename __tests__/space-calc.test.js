@@ -22,7 +22,7 @@ describe("Age", () => {
     expect(age.jupiterAge()).toEqual(2.5295109612141653)
   })
   test("should correctly return years left on Earth", () => {
-    expect(age.earthAgeExpectancy()).toEqual(48)
+    expect(age.timeOnEarth()).toEqual(48)
   })
   
   
