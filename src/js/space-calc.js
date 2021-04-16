@@ -5,6 +5,9 @@ export default class Age {
   earthAge(){
     return this.earth
   }
+  mercuryAge(){
+    return this.earth /.24
+  }
 }
 
 // checkType();{

@@ -9,8 +9,8 @@ describe("Age", () => {
   test("should correctly return age in earth years", () => {
     expect(age.earthAge()).toEqual(30);
   });
-  test("should correctly return age in Mercury years",() => {
+  test("should correctly return age in Mercury years", () => {
     expect(age.mercuryAge()).toEqual(125);
-  })
+  });
   
 });
