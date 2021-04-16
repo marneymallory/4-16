@@ -1,5 +1,5 @@
 {
-  "name": "shape-tracker",
+  "name": "4-16",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Knutsenjamie/shape-tracker.git"
+    "url": "git+https://github.com/marneymallory/4-16.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Knutsenjamie/shape-tracker/issues"
+    "url": "https://github.com/marneymallory/4-16/issues"
   },
-  "homepage": "https://github.com/Knutsenjamie/shape-tracker#readme",
+  "homepage": "https://github.com/marneymallory/4-16#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "clean-webpack-plugin": "^3.0.0",
