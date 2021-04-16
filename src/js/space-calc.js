@@ -14,6 +14,9 @@ export default class Age {
   marsAge(){
     return this.earth /1.88
   }
+  jupiterAge(){
+    return this.earth /11.86
+  }
 
   }
 

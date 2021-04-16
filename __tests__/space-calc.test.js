@@ -19,7 +19,7 @@ describe("Age", () => {
     expect(age.marsAge()).toEqual(15.957446808510639);
   });
   test("should correctly return age in Jupiter years", () => {
-    expect(age.jupiterAge()).toEqual(2.52951096)
+    expect(age.jupiterAge()).toEqual(2.5295109612141653)
   })
   
   
