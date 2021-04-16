@@ -11,5 +11,8 @@ export default class Age {
   venusAge(){
     return this.earth /.62
   }
-}
+  
+
+  }
+
 

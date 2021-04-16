@@ -15,5 +15,10 @@ describe("Age", () => {
   test("should correctly return age in Venus years", () => {
     expect(age.venusAge()).toEqual(48.38709677419355);
   });
+  test("should correctly return age in Mars years", () => {
+    expect(age.marsAge()).toEqual(56.4);
+  });
+  
+  
   
 });
