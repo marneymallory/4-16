@@ -1,10 +1,13 @@
-import Age from './../src/space-calc.js';
+import Age from "../src/js/space-calc";
+
 describe("Age", () => {
-  test("should correctly return age in earth years", () => {
-    const age = new Age(earth, mercury, venus, mars, jupiter);
-    expect(age);
-    expect(age.earth).toReturn();
+  let age;
+  beforeEach(() => {
+    age = new Age();
   });
 
-
+  test("should correctly return age in earth years", () => {
+    age.earth = "30";
+    expect(age.earth).toEqual("30");
+  });
 });
