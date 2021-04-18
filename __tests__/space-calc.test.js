@@ -28,7 +28,7 @@ describe("Age", () => {
     expect(age.timeOnMercury()).toEqual(200)
   })
   test("should correctly return years left on Venus", () => {
-    expect(age.timeonVenus()).toEqual(77.4193548)
+    expect(age.timeOnVenus()).toEqual(77.41935483870968)
   })
   
   
