@@ -30,6 +30,9 @@ export default class Age {
   timeOnMars(){
     return (this.earthAgeExpectancy - this.earth) /1.88  
   }
+  timeOnJupiter(){
+    return (this.earthAgeExpectancy - this.earth) /11.86
+  }
 
   }
 
