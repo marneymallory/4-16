@@ -31,7 +31,7 @@ describe("Age", () => {
     expect(age.timeOnVenus()).toEqual(77.41935483870968)
   })
   test("should correctly return years left on Mars", () => {
-    expect(age.timeOnMars()).toEqual(25.5319149)
+    expect(age.timeOnMars()).toEqual(25.531914893617024)
   })
   
   

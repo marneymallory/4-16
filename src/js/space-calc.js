@@ -27,6 +27,9 @@ export default class Age {
   timeOnVenus(){
     return (this.earthAgeExpectancy - this.earth) /.62
   }
+  timeOnMars(){
+    return(this.earthAgeExpectancy - this.earth) /1.88  
+  }
 
   }
 
