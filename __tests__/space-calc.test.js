@@ -33,6 +33,9 @@ describe("Age", () => {
   test("should correctly return years left on Mars", () => {
     expect(age.timeOnMars()).toEqual(25.531914893617024)
   })
+  test("should correctly return years left on Jupiter", () => {
+    expect(age.timeOnJupiter()).toEqual(4.04721754)
+  })
   
   
 });
