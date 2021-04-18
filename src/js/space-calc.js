@@ -22,7 +22,7 @@ export default class Age {
     return this.earthAgeExpectancy - this.earth
   }
   timeOnMercury(){
-    
+    return (this.earthAgeExpectancy - this.earth) /.24
   }
 
   }
