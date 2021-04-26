@@ -46,6 +46,6 @@ describe("Age", () => {
   });
   test("should correctly return years lived past life expectancy on Venus", () => {
     age = new Age(80);
-    expect(age.newVenusAge()).toEqual(3.22580645);
+    expect(age.newVenusAge()).toEqual(3.2258064516129035);
   });
 });
