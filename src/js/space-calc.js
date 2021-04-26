@@ -45,4 +45,7 @@ export default class Age {
   newMarsAge() {
     return (this.earth - this.earthAgeExpectancy) / 1.88;
   }
+  newJupiterAge() {
+    return (this.earth - this.earthAgeExpectancy) / 11.86;
+  }
 }
