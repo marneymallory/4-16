@@ -40,4 +40,8 @@ describe("Age", () => {
     age = new Age(80);
     expect(age.newEarthAge()).toEqual(2);
   });
+  test("should correctly return years lived past their life expectancy on mercury", () => {
+    age = new Age(80);
+    expect(age.newMercuryAge()).toEqual(8.33333333);
+  });
 });
