@@ -52,4 +52,8 @@ describe("Age", () => {
     age = new Age(80);
     expect(age.newMarsAge()).toEqual(1.0638297872340425);
   });
+  test("should correctly return years lived past life expectancy on Jupiter", () => {
+    age = new Age(80);
+    expect(age.newJupiterAge()).toEqual(11.86);
+  });
 });
