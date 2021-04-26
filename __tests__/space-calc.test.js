@@ -36,12 +36,16 @@ describe("Age", () => {
   test("should correctly return years left on Jupiter", () => {
     expect(age.timeOnJupiter()).toEqual(4.0472175379426645);
   });
-  test("should correctly return years lived past their life expectancy on earth", () => {
+  test("should correctly return years lived past life expectancy on Earth", () => {
     age = new Age(80);
     expect(age.newEarthAge()).toEqual(2);
   });
-  test("should correctly return years lived past their life expectancy on mercury", () => {
+  test("should correctly return years lived past life expectancy on Mercury", () => {
     age = new Age(80);
     expect(age.newMercuryAge()).toEqual(8.333333333333334);
+  });
+  test("should correctly return years lived past life expectancy on Venus", () => {
+    age = new Age(80);
+    expect(age.newVenusAge()).toEqual(3.22580645);
   });
 });
