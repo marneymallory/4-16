@@ -19,23 +19,25 @@ describe("Age", () => {
     expect(age.marsAge()).toEqual(15.957446808510639);
   });
   test("should correctly return age in Jupiter years", () => {
-    expect(age.jupiterAge()).toEqual(2.5295109612141653)
-  })
+    expect(age.jupiterAge()).toEqual(2.5295109612141653);
+  });
   test("should correctly return years left on Earth", () => {
-    expect(age.timeOnEarth()).toEqual(48)
-  })
+    expect(age.timeOnEarth()).toEqual(48);
+  });
   test("should correctly return years left on Mercury", () => {
-    expect(age.timeOnMercury()).toEqual(200)
-  })
+    expect(age.timeOnMercury()).toEqual(200);
+  });
   test("should correctly return years left on Venus", () => {
-    expect(age.timeOnVenus()).toEqual(77.41935483870968)
-  })
+    expect(age.timeOnVenus()).toEqual(77.41935483870968);
+  });
   test("should correctly return years left on Mars", () => {
-    expect(age.timeOnMars()).toEqual(25.531914893617024)
-  })
+    expect(age.timeOnMars()).toEqual(25.531914893617024);
+  });
   test("should correctly return years left on Jupiter", () => {
-    expect(age.timeOnJupiter()).toEqual(4.0472175379426645)
-  })
-  
-  
+    expect(age.timeOnJupiter()).toEqual(4.0472175379426645);
+  });
+  test("should correctly return years lived past their life expectancy on earth", () => {
+    age = new Age(80);
+    expect(age.newEarthAge()).toEqual(2);
+  });
 });

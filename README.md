@@ -20,14 +20,14 @@ This is an application designed to showcase TDD with Jest. The user will be able
 ### Installation
 
 -Clone the repository: $ git clone https:// github.com/marneymallory/4-16
--Navigate to the '4-16' directory on your computer
+-Navigate to the `4-16` directory on your computer
 -Open with your text editor of choice to view the code base
 -To start a server and view the project in the browser:
--Navigate to '4-16' in your command line
+-Navigate to `4-16` in your command line
 -Run the command npm install to install dependencies
 -Run the command npm run build to make a bundle of the files
 -Run the command npm run start to start a development server
--To run tests, navigate to '4-16' in your terminal and run the command npm run test`
+-To run tests, navigate to `4-16` in your terminal and run the command npm run test`
 
 ### Known Bugs:
 

@@ -33,4 +33,7 @@ export default class Age {
   timeOnJupiter() {
     return (this.earthAgeExpectancy - this.earth) / 11.86;
   }
+  newEarthAge() {
+    return this.earth - this.earthAgeExpectancy;
+  }
 }
