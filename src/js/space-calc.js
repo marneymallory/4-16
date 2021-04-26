@@ -36,4 +36,7 @@ export default class Age {
   newEarthAge() {
     return this.earth - this.earthAgeExpectancy;
   }
+  newMercuryAge() {
+    return (this.earth - this.earthAgeExpectancy) / 0.24;
+  }
 }

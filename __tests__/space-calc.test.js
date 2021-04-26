@@ -42,6 +42,6 @@ describe("Age", () => {
   });
   test("should correctly return years lived past their life expectancy on mercury", () => {
     age = new Age(80);
-    expect(age.newMercuryAge()).toEqual(8.33333333);
+    expect(age.newMercuryAge()).toEqual(8.333333333333334);
   });
 });
