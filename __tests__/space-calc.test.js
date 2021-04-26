@@ -50,6 +50,6 @@ describe("Age", () => {
   });
   test("should correctly return years lived past life expectancy on Mars", () => {
     age = new Age(80);
-    expect(age.newMarsAge()).toEqual(1.06382979);
+    expect(age.newMarsAge()).toEqual(1.0638297872340425);
   });
 });
